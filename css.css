@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Added padding to body */
+    margin: 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 40px;
+    object-fit: cover;
+    padding: 10px; /* Added padding to the image */
+}
+
+h1 {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Added padding to h1 */
+}
+
+/* Ensure the icons-right container is positioned in the top-right corner */
+.icons-right {
+    position: absolute;          /* Position absolutely to the top-right corner */
+    top: 10px;                   /* 10px from the top */
+    right: 10px;                 /* 10px from the right */
+    display: flex;               /* Arrange icons in a row */
+    gap: 15px;                   /* Space between the icons */
+    padding: 10px;               /* Padding around the container */
+    color: black;                /* Set the color of all icons to black */
+}
+
+
+/* Style for icons */
+.icons-right i {
+    font-size: 32px;             /* Size of the icons to match h1 size */
+    color: white;                /* White color for the icons */
+}
+
+
+.a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;  /* Added padding to the flex container */
+}
+
+.name-and-stats {
+    display: flex;
+    flex-direction: column; /* Stack h3 and stats vertically */
+    transform: translateY(-10px) translateX(-10px);
+}
+
+.b {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    padding: 5px;  /* Added padding inside stats */
+}
+
+.a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 40px;
+    object-fit: cover;
+}
+/* Style for the Edit Profile button */
+.edit-profile-btn,.edit-profile-btn:hover  {
+    background-color: black; /* Black background */
+    color: white;            /* White text */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid white; /* White border */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+.share-profile {
+    background-color: black; /* Black background */
+    color: white;            /* White text */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid white; /* White border */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+.user {
+    background-color: black; /* Black background */
+               /* White text */
+    
+    padding: 10px 20px;
+    border: 2px solid white; /* White border */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+   
+}
+
+.bx-user-plus {
+    color: white;           
+    font-size: 16px;      
+}
+.highlights
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 2px solid white;
+    gap: 10px;
+}
+.highlights img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures image scales properly without distortion */
+    border-radius: 50%;
+}
+.highlights h6{
+    font-size: .6em;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
